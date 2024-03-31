@@ -10,12 +10,12 @@
       type: master
       tags:
         - dev
-        - local
+        - master
     - name: local-cluster-01-test
       type: worker
       tags:
         - dev
-        - local
+        - master
   description: >
     hello every one
     howa re you doing
@@ -31,15 +31,15 @@
     port: 8554
   nodes:
     - name: local-cluster-02
-      type: master
+      type: worker
       tags:
         - dev
-        - local
+        - worker
     - name: local-cluster-02-test
       type: worker
       tags:
         - dev
-        - local
+        - worker
   description: >
     hello every one
     howa re you doing
