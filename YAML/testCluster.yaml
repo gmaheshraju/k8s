@@ -1,0 +1,48 @@
+- name: local-cluster
+  isActive: true
+  createdAt: 2024-03-10 23:10:05
+  version: !!str &currentVersion 1.0.1
+  access:
+    ip: 192.0.4
+    port: 8554
+  nodes:
+    - name: local-cluster-01
+      type: master
+      tags:
+        - dev
+        - local
+    - name: local-cluster-01-test
+      type: worker
+      tags:
+        - dev
+        - local
+  description: >
+    hello every one
+    howa re you doing
+  longDescription: |
+    ttttttttt uuuuuuuu kkkkkkkkk yyyyy
+    fggggggg gggggg ttttttt ttttt
+- name: local-cluster-02
+  isActive: true
+  createdAt: 2024-03-10 23:10:05
+  version: *clusterVersion
+  access:
+    ip: 192.0.4
+    port: 8554
+  nodes:
+    - name: local-cluster-02
+      type: master
+      tags:
+        - dev
+        - local
+    - name: local-cluster-02-test
+      type: worker
+      tags:
+        - dev
+        - local
+  description: >
+    hello every one
+    howa re you doing
+  longDescription: |
+    ttttttttt uuuuuuuu kkkkkkkkk yyyyy
+    fggggggg gggggg ttttttt ttttt
