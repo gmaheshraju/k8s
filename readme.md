@@ -1,4 +1,4 @@
-# Kubernetes | K8s
+# Kubernetes
 
 hands-on coding to review kubernetes concepts.
 
